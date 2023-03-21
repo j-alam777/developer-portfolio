@@ -6,9 +6,11 @@ nav{
 nav li{
         list-style: none;
         margin-left: 50px;
+        
 }
 nav ul{
         display:flex;
+        align-items: center;
 }
 *{
    margin: 0;
@@ -19,6 +21,12 @@ nav ul{
         height: 64px;
         border-radius: 5px;
         background-color: #FD6E0A;
+        color:white;
+        font-weight:700;
+        font-size: 20px;
+        border: 0;
+        padding:18px 35px;
+
 }
 .nav-title{
         font-size: 45px;
