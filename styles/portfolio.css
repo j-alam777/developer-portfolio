@@ -18,7 +18,8 @@ nav ul{
         
 }
 .btn-primary{
-        height: 64px;
+        height: 64;
+        width:150;
         border-radius: 5px;
         background-color: #FD6E0A;
         color:white;
