@@ -1,4 +1,10 @@
+*{
+        margin: 0;
+        font-family:'Open Sans', sans-serif;
+             
+     }
 nav{
+        
         display: flex;
         justify-content: space-between;
         margin: 50px 200px;
@@ -12,11 +18,7 @@ nav ul{
         display:flex;
         align-items: center;
 }
-*{
-   margin: 0;
-   font-family:'Open Sans', sans-serif;
-        
-}
+
 .btn-primary{
         height: 64;
         width:150;
@@ -35,4 +37,12 @@ nav ul{
 }
 .text-primary{
         color:#FD6E0A;
+}
+.banner{
+        margin: 0 200px;
+        display: flex;
+        
+}
+.banner-description{
+        color: midnightblue;
 }
