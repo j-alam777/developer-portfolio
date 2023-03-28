@@ -55,11 +55,12 @@ nav li{
 .banner-title{
         font-size: 85px;
         font-weight: 800;
+        
 
 }
 .banner-sub-title{
         font-size: 45px;
-        font-weight: 600;
+        font-weight: 700;
         margin-bottom: 20px;
 
 }
@@ -67,6 +68,11 @@ nav li{
         color: midnightblue;
         font-size: 16px;
         margin-bottom: 30px;
+}
+
+.dev-pic{
+        height: 700px;
+        width: 600px;
 }
 main{
         max-width: 1140px;
