@@ -42,13 +42,14 @@ nav li{
         background-image: url('../images/header_bg.png'), url('../images/developer.png');
         background-repeat: no-repeat;
         background-position:bottom right, left;
+        
 }
 
 .banner{
-        margin: 0 200px;
+        margin: 0px 50px 0px 200px;
         display: flex;
         align-items: center;
-        
+        padding-left: 20px;    
 }
 
 .banner-title{
@@ -80,14 +81,11 @@ section{
         border-radius: 10px;
         padding: 130px 150px;
         text-align: center;
-
 }
 .about-title{
        
         margin-bottom: 30px;
         font-size: 35px;
-
-
 }
 .section-title{
         text-align: center;
@@ -99,8 +97,6 @@ section{
         color: #757575;
         font-size: 18px;
         margin-bottom: 30px;
-        
-
 }
 .about-info-container{
         display: flex;
@@ -110,14 +106,11 @@ section{
         font-size: 20px;
         color:#757575;
         margin-top: 20px;
-
 }
 .info-description{
         font-size: 20px;
         font-weight: 700;
-        color: #757575;
-      
-
+        color: #757575; 
 }
 .skills-container{
         display: flex;
@@ -194,3 +187,15 @@ section{
 .contact a{
         text-decoration: none;
         }
+.btn-con{
+        background-color: #f2efed;
+        height: 64;
+        border: 1px;
+        border-style: solid;
+        border-color: #FD6E0A;
+        border-radius: 5px;
+        color: #FD6E0A;
+        font-size: 20px;
+        font-weight: 700;
+        padding:18px 35px;       
+}
