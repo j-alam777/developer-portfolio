@@ -77,7 +77,7 @@ section{
 .about{
         
         background-color: #FFF8f3;
-        border-radius: 10px
+        border-radius: 10px;
         padding: 130px 150px;
         text-align: center;
 
@@ -122,6 +122,7 @@ section{
 .skills-container{
         display: flex;
         gap: 24px;
+        font-weight: 800;
 }
 .skill{
         background: #FFF8f3;
@@ -142,13 +143,12 @@ section{
 .resume-content{
         display: flex;
         gap: 24px;
-}
+}      
 .resume .title{
         font-size: 45;
-        font-weight: 700;
+        font-weight: 800;
         color: #494242;
-        margin-bottom: 10px;
-        
+        margin-bottom: 10px;      
 }
 .resume .sub-title{
         font-size: 25;
@@ -174,8 +174,7 @@ section{
         display: flex;
         gap: 100px;
         background: #FFF8f3;
-        padding: 130px 200px;
-        
+        padding: 130px 200px;       
 }
 .contact .section-title{
         text-align: left;
@@ -185,8 +184,6 @@ section{
         width: 100%; 
         border: 0;
         padding: 18px 30px;
-
-
 }
 .contact a{
         text-decoration: none;
